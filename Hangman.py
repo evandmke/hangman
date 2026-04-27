@@ -97,7 +97,7 @@ while True:
         print("  __|__")
 
     print(f"\nYou have {max(0, 10 - errors)} errors left")
-    print(f"Your word: {" ".join(correct_letters)}")
+    print(f"\nYour word: {' '.join(correct_letters)}")
     print(f"\nYour incorrect letters: {incorrect_letters}")
     print(f"Your correctly guessed letters: {guessed_letters}")
     letter = input("\nEnter a letter to guess: ").lower()
